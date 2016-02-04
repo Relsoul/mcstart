@@ -9,7 +9,7 @@ gulp.task("default",["sass:watch","webpack:watch",'reload']);
 
 //sass编译
 gulp.task("sass:watch",function(){
-    gulp.watch('./dev/client/css/**.scss',["sass:compile"])
+    gulp.watch('./dev/client/css/**.scss',["reload"])
 })
 gulp.task("sass:compile",function(){
     gulp.src(['./dev/client/css/**.scss'])
@@ -21,6 +21,7 @@ gulp.task("sass:compile",function(){
 gulp.task('webpack:watch',function(){
     //任何js变动
     gulp.watch('./dev/client/js/**.js',["reload"])
+    gulp.watch('./dev/*.js',["reload"])
     gulp.watch("./dev/service/js/**.js",["reload"])
 })
 
@@ -31,4 +32,4 @@ gulp.task('webpack:compile',function(){
         .pipe(gulp.dest('./public/js'))
 })
 
-gulp.task("reload",['webpack:compile'], p.shell.task(['electron .']))
+gulp.task("reload",["sass:compile",'webpack:compile'], p.shell.task(['electron .']))

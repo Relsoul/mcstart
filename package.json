@@ -4,13 +4,14 @@
   "description": "is mc start",
   "main": "./dev/service/js/app.js",
   "scripts": {
-    "start": "electron ./dev/service/js/app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-packager ./ soulMc --platform=win32 --arch=all --out D:/Project/build --version 0.36.7 --overwrite "
   },
-  "dependencies": {
-    "bower": "^1.7.7",
-    "electron-prebuilt": "^0.36.7"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "asar": "^0.9.1",
+    "electron-packager": "^5.2.1",
+    "electron-prebuilt": "^0.36.7",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
     "gulp-load-plugins": "^1.2.0",
@@ -21,9 +22,6 @@
     "gulp-uglify": "^1.5.1",
     "gulp-webpack": "^1.5.0",
     "webpack": "^2.0.6-beta"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "soul",
   "license": "ISC"

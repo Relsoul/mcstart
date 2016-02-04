@@ -1,0 +1,18 @@
+{
+  "name": "mcstart",
+  "description": "is mc start",
+  "main": "./dev/service/js/app.js",
+  "authors": [
+    "soul"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Relsoul/mcstart",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
