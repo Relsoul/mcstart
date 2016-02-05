@@ -4,14 +4,13 @@ var BrowserWindow = electron.BrowserWindow;  // 创建原生浏览器窗口的�
 var path=require("path");
 var ipc=electron.ipcMain;
 var fs=require("fs");
-var user_config=JSON.parse(fs.readFileSync(path.join(__dirname,"../config.json"),'utf8'));
-var process=require("process")
-var child_process=require("child_process")
+var process=require("process");
 
-console.log(11,electron)
 
-require("./initUser.js")(ipc)
+var app_path=app.getAppPath();
 
+
+console.log("app_path",app_path)
 // 保持一个对于 window 对象的全局引用，不然，当 JavaScript 被 GC，
 // window 会被自动地关闭
 var mainWindow = null;
@@ -25,11 +24,15 @@ app.on('window-all-closed', function() {
     }
 });
 
+ipc.on('close-main-window', function () {
+    app.quit();
+});
+
 // 当 Electron 完成了初始化并且准备创建浏览器窗口的时候
 // 这个方法就被调用
 app.on('ready', function() {
     // 创建浏览器窗口。
-    mainWindow = new BrowserWindow({width: 1000, height: 600});
+    mainWindow = new BrowserWindow({width: 1200, height: 800});
 
 
     // 加载应用的 index.html
@@ -50,34 +53,19 @@ app.on('ready', function() {
 });
 
 ipc.on('Info:get',function(event,arg){
-    event.sender.send("Info:result",user_config)
+    require("./getInfo.js")(event,arg,app_path)
+
 });
 
 ipc.on("searchJave:search",function(event,arg){
-    child_process.exec("java -XshowSettings:properties",function(error, stdout, stderr){
-        console.log('stdout: ' + stdout);
-        var java_env=stderr.toString().match(/sun.boot.library.path.+/)[0];
-        //return event.sender.send("searchJave:result",undefined)
-        if(java_env){
-            console.log(68,java_env.match(/=.+/)[0].substr(1))
-            java_env=path.join(java_env.match(/=.+/)[0].substr(1),"/javaw.exe")
-            return  event.sender.send("searchJave:result",java_env)
-        }else{
-            if(fs.existsSync("c:/Program Files/java/")){
-                java_env='c:/Program Files/java/'
-            }else if(fs.existsSync("c:/Program Files (x86)/java/")){
-                java_env='c:/Program Files (x86)/java/'
-            }
-            if(java_env){
-                var java_dir=fs.readdirSync(java_env)[0]
-                java_env=path.join(java_env,java_dir,"/bin/javaw.exe")
-                return  event.sender.send("searchJave:result",java_env)
-            }else{
-                return event.sender.send("searchJave:result",undefined)
-            }
-        }
-    })
+    require("./searchJava.js")(event,arg)
 })
+
+
+ipc.on("startGame",function(event,arg){
+    require("./startGame.js")(event,arg,app_path)
+})
+
 
 
 
