@@ -88,7 +88,9 @@ module.exports=function(event,arg,app_path){
             var mainClass=startarg["mainClass"];
             var start=startarg['start'];
             var libs=startarg['libs'];
-            var start_text="\"C:\\Program Files\\Java\\jre1.8.0_71\\bin\\javaw.exe\" -Xincgc -Xmx"+user_config["memory_size"]+"M "+user_config["add_arg"]+" -Djava.library.path="+""+path.join(app_path,".minecraft\\versions\\1.7.10\\1.7.10-natives")+""
+
+
+            var start_text="\""+path.join(user_config['java_path'])+"\""+" -Xincgc -Xmx"+user_config["memory_size"]+"M "+user_config["add_arg"]+" -Djava.library.path="+""+path.join(app_path,".minecraft\\versions\\1.7.10\\1.7.10-natives")+""
             +" -cp "+""+libs.join(";")+path.join(app_path,".minecraft/versions/",user_config["version"],user_config["version"]+".jar")+""
             +" "+mainClass+" "+start;
             //console.log(90,path.join(user_config["java_path"])+start_text)

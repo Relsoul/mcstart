@@ -169,7 +169,7 @@
 	        $(elem['search_java']).on("click",function(e){
 	            e.stopImmediatePropagation()
 	            searchJava.init(function(java_path){
-	                info['java_path']=java_path;
+	                info['java_path']= $.trim(java_path);
 	                $(elem["java_path"]).val(info['java_path'])
 	            })
 	        });
@@ -193,7 +193,7 @@
 	                    ipc.send("close-main-window");
 	                },30000);
 
-	                
+
 	                var end_time=30
 	                var timer=setInterval(function(){
 	                    if(end_time<=0){

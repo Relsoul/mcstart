@@ -17,6 +17,7 @@ module.exports=function(event,arg,app_path){
 
             var getOsVersion=function(cb){
                 var child_process=require("child_process");
+                //系统版本
                 child_process.exec("wmic os get osarchitecture",function(error, stdout, stderr){
                     if(stdout.indexOf("64")!=-1){
                        cb("64")
