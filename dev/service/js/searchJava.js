@@ -43,7 +43,6 @@ module.exports=function(event,arg){
                     cb(false,java_env)
                 }else{
                     cb(true)
-
                 }
             }
         }
@@ -61,7 +60,26 @@ module.exports=function(event,arg){
                 })
             })
         }
-
+        var funcFor=function(arr,cb){
+            var len=arr.length;
+            var i=0;
+            var Iterator=function(fn){
+                fn(function(next,data) {
+                    if (next) {
+                        i++;
+                        if (i > len) {
+                            cb(null)
+                        }
+                        Iterator(arr[i])
+                    } else {
+                        cb(data)
+                    }
+                })
+            }
+            return function(){
+                Iterator(arr[i])
+            }()
+        }
 
 
 
@@ -70,23 +88,9 @@ module.exports=function(event,arg){
                 if(strate&&strate.length>1){
                     add(strate)
                     console.log(cache)
-                    var len=cache.length;
-                    var i=0;
-                    function funcFor(fn){
-                        console.log(fn.toString())
-                        fn(function(next,data){
-                            if(next){
-                                i++;
-                                if(i>len){
-                                    cb(null)
-                                }
-                                arguments.callee(cache[i])
-                            }else{
-                                cb(data)
-                            }
-                        })
-                    }
-                    funcFor(cache[i])
+
+                    var result=funcFor(cache,cb)
+
                 }
             }
         }
