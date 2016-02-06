@@ -67,7 +67,7 @@ module.exports=function(event,arg){
                 fn(function(next,data) {
                     if (next) {
                         i++;
-                        if (i > len) {
+                        if (i >= len) {
                            return cb(null)
                         }
                         Iterator(arr[i])
