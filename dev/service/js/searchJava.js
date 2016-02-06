@@ -68,7 +68,7 @@ module.exports=function(event,arg){
                     if (next) {
                         i++;
                         if (i > len) {
-                            cb(null)
+                           return cb(null)
                         }
                         Iterator(arr[i])
                     } else {
