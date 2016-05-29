@@ -1,11 +1,11 @@
 /**
  * Created by soul on 2016/2/3.
  */
-var path=require("path")
-var webpack=require("webpack")
+var path=require("path");
+var webpack=require("webpack");
 module.exports={
     //开发js都放置在/dev/js下 同时/dev/js下有个主目录用来做主文件
-    entry:'./dev/start.js',
+    entry:'./app/dev/start.js',
     externals: {
         "jquery" : "jQuery",
         'ipc':'ipc',
@@ -30,4 +30,4 @@ module.exports={
         noParse:[],
        /* loaders: [{test: path.resolve(__dirname, 'public/lib/jquery/jquery.min.js'), loader: 'expose?jQuery'}]*/
     }
-}
+};

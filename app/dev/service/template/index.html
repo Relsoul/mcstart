@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="../../../public/lib/Materialize/dist/css/materialize.min.css"/>
+    <script>
+        window.$ = window.jQuery = require("../../../public/lib/jquery/dist/jquery.js");
+        window.Hammer=require("../../../public/lib/Materialize/js/hammer.min.js");
+        var ipc=require("electron").ipcRenderer;
+        var remote=require("remote")
+    </script>
+    <link rel="stylesheet" href="../../../public/css/style.css"/>
+</head>
+<body>
+<div class="row">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Logo</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">load</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <div class="card-panel blue lighten-2 center-align">正在启动......</div>
+                <div class="card-panel">
+                    <span class="blue-text text-darken-2"><p>重复点击并不会多开游戏~欢迎来到Minecraft的世界,为了不打扰你愉快的游戏,本程序将在30秒内自动关闭~</p><p>剩余时间: <span id="end_time"></span></p></span>
+                </div>
+                <div class="preloader-wrapper big active loading" >
+                    <div class="spinner-layer spinner-blue-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div><div class="gap-patch">
+                        <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col m7">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="../../../public/img/hello.jpg">
+                        <span class="card-title">欢迎来到Minecraft的世界</span>
+                    </div>
+                    <div class="card-content">
+                        <p>请仔细阅读以下说明</p>
+                        <p>请确认好你的信息以保证游戏运行正确</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col m5" id="user_info_card">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <span class="card-title">你的信息</span>
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <i  class="material-icons prefix">account_circle</i>
+                                    <input placeholder="your name" id="user_name" type="text" class="validate">
+                                    <label for="user_name">please input your name</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <i  class="material-icons prefix">account_circle</i>
+                                    <input placeholder="无" id="add_arg" type="text" class="validate">
+                                    <label for="add_arg">java附加参数</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input placeholder="无" id="java_path" type="text" class="validate" disabled>
+                                    <label for="java_path">java_path</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <a href="#" class="btn waves-effect waves-light" id="search_java" name="action">find_Java
+                                        <i class="material-icons right">send</i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p>set your java memory</p>
+                                <p class="range-field">
+                                    <input type="range" id="memory_size" min="512" max="1024" />
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+        <a class="btn-floating btn-large waves-effect waves-light red" id="start_game">
+            <i class="large material-icons">videogame_asset</i>
+        </a>
+    </div>
+
+</div>
+<script src=""></script>
+<script src="../../../public/lib/Materialize/dist/js/materialize.min.js"></script>
+<script src="../../../public/js/mcstart.js"></script>
+</body>
+</html>

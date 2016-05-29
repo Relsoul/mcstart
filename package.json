@@ -2,10 +2,10 @@
   "name": "mcstart",
   "version": "1.0.0",
   "description": "is mc start",
-  "main": "./dev/service/js/app.js",
+  "main": "./app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "package": "electron-packager ./ soulMc --platform=win32 --arch=all --out D:/Project/build --version 0.36.7 --overwrite "
+    "package": "electron-packager ./ soulMc --platform=win32 --arch=all --out D:/Project/build --version 0.36.7 --overwrite   "
   },
   "dependencies": {},
   "devDependencies": {
