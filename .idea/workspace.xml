@@ -2,10 +2,425 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="639fe520-35fa-4fe3-905d-d994f53e583a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/appPath/dev/service/js/searchJava.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/client/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/client/css/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/client/js/createSingletonDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/client/js/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/client/js/searchJava.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/client/js/setAnimate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/service/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/service/js/1.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/service/js/getInfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/service/js/logs/2016-02-05-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/service/js/logs/2016-02-05-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/service/js/logs/2016-02-05-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/service/js/logs/2016-02-05-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/service/js/save.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/service/js/searchJava.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/service/js/service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/service/js/startGame.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/service/js/test.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/service/template/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/dev/start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/css/font/material-design-icons/s.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/img/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/img/hello.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/js/mcstart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/bin/materialize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/bin/materialize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/css/materialize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/css/materialize.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/material-design-icons/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/material-design-icons/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/material-design-icons/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/material-design-icons/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/material-design-icons/Material-Design-Icons.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Bold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Bold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Light.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Light.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Light.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Medium.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Medium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Medium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Thin.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Thin.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/font/roboto/Roboto-Thin.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/js/materialize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/dist/js/materialize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/extras/noUiSlider/nouislider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/extras/noUiSlider/nouislider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/extras/noUiSlider/nouislider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/material-design-icons/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/material-design-icons/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/material-design-icons/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/material-design-icons/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/material-design-icons/Material-Design-Icons.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Bold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Bold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Light.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Light.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Light.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Medium.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Medium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Medium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Thin.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Thin.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/font/roboto/Roboto-Thin.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/animation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/buttons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/cards.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/character_counter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/chips.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/collapsible.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/date_picker/picker.date.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/date_picker/picker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/forms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/hammer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/initial.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/jquery.hammer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/jquery.timeago.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/leanModal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/materialbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/parallax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/pushpin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/scrollFire.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/sideNav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/tabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/toasts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/transitions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/velocity.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/js/waves.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/package.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_cards.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_carousel.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_chips.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_collapsible.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_color.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_dropdown.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_form.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_global.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_icons-material-design.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_materialbox.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_modal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_normalize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_prefixer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_preloader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_roboto.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_sideNav.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_slider.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_table_of_contents.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_tabs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_toast.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_tooltip.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_typography.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/_waves.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/date_picker/_default.date.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/date_picker/_default.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/components/date_picker/_default.time.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/sass/materialize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/templates/masonry-template/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/templates/masonry-template/background1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/templates/masonry-template/background2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/templates/masonry-template/background3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/templates/masonry-template/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/templates/masonry-template/js/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/templates/masonry-template/js/masonry.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/templates/parallax-template/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/templates/parallax-template/background1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/templates/parallax-template/background2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/templates/parallax-template/background3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/templates/parallax-template/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/templates/parallax-template/js/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/templates/starter-template/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/templates/starter-template/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/templates/starter-template/js/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/tests/spec/cards/cardsSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/tests/spec/collapsible/collapsibleSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/tests/spec/helper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/tests/spec/select/selectSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/tests/spec/tabs/tabsSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/tests/spec/toast/toastSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/Materialize/tests/spec/tooltip/tooltipSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/dist/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/grunt/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/grunt/bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/grunt/bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/grunt/bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/grunt/bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/grunt/configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/grunt/sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/js/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/js/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/js/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/js/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/js/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/js/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/js/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/js/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/js/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/js/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/js/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/js/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/js/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/.csscomb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/image.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/reset-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/resize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/size.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/mixins/vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/less/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/nuget/MyGet.ps1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/nuget/bootstrap.less.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/nuget/bootstrap.nuspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/package.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/bootstrap/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/AUTHORS.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/dist/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/dist/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/dist/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/ajax/jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/ajax/load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/ajax/parseJSON.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/ajax/parseXML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/ajax/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/ajax/var/location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/ajax/var/nonce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/ajax/var/rquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/ajax/xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/attributes/attr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/attributes/classes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/attributes/prop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/attributes/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/attributes/val.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/core/access.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/core/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/core/parseHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/core/ready.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/core/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/core/var/rsingleTag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/css/addGetHookIf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/css/adjustCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/css/curCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/css/defaultDisplay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/css/hiddenVisibleSelectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/css/showHide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/css/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/css/var/cssExpand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/css/var/getStyles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/css/var/isHidden.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/css/var/rmargin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/css/var/rnumnonpx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/css/var/swap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/data/Data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/data/accepts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/data/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/data/var/acceptData.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/data/var/dataPriv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/data/var/dataUser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/effects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/effects/Tween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/effects/animatedSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/effects/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/event/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/event/alias.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/event/focusin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/event/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/event/trigger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/exports/amd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/exports/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/intro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/manipulation/_evalUrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/manipulation/buildFragment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/manipulation/createSafeFragment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/manipulation/getAll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/manipulation/setGlobalEval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/manipulation/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/manipulation/var/nodeNames.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/manipulation/var/rcheckableType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/manipulation/var/rleadingWhitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/manipulation/var/rscriptType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/manipulation/var/rtagName.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/manipulation/wrapMap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/outro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/queue/delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/selector-native.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/selector-sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/selector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/traversing/findFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/traversing/var/dir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/traversing/var/rneedsContext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/traversing/var/siblings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/var/arr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/var/class2type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/var/concat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/var/deletedIds.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/var/document.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/var/documentElement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/var/hasOwn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/var/indexOf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/var/pnum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/var/push.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/var/rcssNum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/var/rnotwhite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/var/slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/var/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/var/toString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/public/lib/jquery/src/wrap.js" afterPath="" />
     </list>
     <ignored path="mcstart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +443,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="searchJava.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/dev/service/js/searchJava.js">
+        <entry file="file://$PROJECT_DIR$/appPath/dev/service/js/searchJava.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
               <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
@@ -51,7 +466,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="7" column="150" selection-start-line="7" selection-start-column="150" selection-end-line="7" selection-end-column="150" />
+              <caret line="7" column="140" selection-start-line="7" selection-start-column="140" selection-end-line="7" selection-end-column="140" />
               <folding />
             </state>
           </provider>
@@ -68,7 +483,7 @@
         </entry>
       </file>
       <file leaf-file-name="service.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/dev/service/js/service.js">
+        <entry file="file://$PROJECT_DIR$/appPath/dev/service/js/service.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="666">
               <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
@@ -212,7 +627,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="appPath" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,12 +733,12 @@
       <workItem from="1464495483380" duration="758000" />
       <workItem from="1464500033325" duration="103000" />
       <workItem from="1464500175773" duration="5252000" />
-      <workItem from="1464505501884" duration="347000" />
+      <workItem from="1464505501884" duration="484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6461000" />
+    <option name="totallyTimeSpent" value="6598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -370,7 +785,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/public/lib/Materialize/dist/js/materialize.js</url>
+          <url>file://$PROJECT_DIR$/appPath/public/lib/Materialize/dist/js/materialize.js</url>
           <line>232</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -380,7 +795,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/dev/client/js/createSingletonDialog.js" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/client/js/createSingletonDialog.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -388,38 +803,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dev/start.js" />
-    <entry file="file://$PROJECT_DIR$/app/dev/client/js/init.js" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/start.js" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/client/js/init.js" />
     <entry file="file://$PROJECT_DIR$/app.js" />
-    <entry file="file://$PROJECT_DIR$/app/dev/client/js/searchJava.js" />
-    <entry file="file://$PROJECT_DIR$/app/dev/service/template/index.html" />
-    <entry file="file://$PROJECT_DIR$/app/dev/service/config.json" />
-    <entry file="file://$PROJECT_DIR$/app/dev/client/css/style.scss" />
-    <entry file="file://$PROJECT_DIR$/app/dev/start.js" />
-    <entry file="file://$PROJECT_DIR$/app/dev/client/js/init.js" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/client/js/searchJava.js" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/service/template/index.html" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/service/config.json" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/client/css/style.scss" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/start.js" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/client/js/init.js" />
     <entry file="file://$PROJECT_DIR$/app.js" />
-    <entry file="file://$PROJECT_DIR$/app/dev/client/js/searchJava.js" />
-    <entry file="file://$PROJECT_DIR$/app/dev/service/template/index.html" />
-    <entry file="file://$PROJECT_DIR$/app/dev/service/config.json" />
-    <entry file="file://$PROJECT_DIR$/app/dev/client/css/style.scss" />
-    <entry file="file://$PROJECT_DIR$/app/public/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/client/js/searchJava.js" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/service/template/index.html" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/service/config.json" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/client/css/style.scss" />
+    <entry file="file://$PROJECT_DIR$/appPath/public/css/style.css" />
     <entry file="file://$PROJECT_DIR$/bower.json" />
-    <entry file="file://$PROJECT_DIR$/app/public/lib/jquery/dist/jquery.min.js" />
+    <entry file="file://$PROJECT_DIR$/appPath/public/lib/jquery/dist/jquery.min.js" />
     <entry file="file://$PROJECT_DIR$/.bowerrc" />
-    <entry file="file://$PROJECT_DIR$/app/public/img/bg.jpg" />
-    <entry file="file://$PROJECT_DIR$/app/dev/client/js/createSingletonDialog.js" />
-    <entry file="file://$PROJECT_DIR$/app/dev/service/js/1.bat" />
-    <entry file="file://$PROJECT_DIR$/app/dev/client/config.json" />
-    <entry file="file://$PROJECT_DIR$/app/public/lib/Materialize/js/hammer.min.js" />
-    <entry file="file://$PROJECT_DIR$/app/public/lib/Materialize/dist/js/materialize.js" />
-    <entry file="file://$PROJECT_DIR$/app/public/lib/Materialize/dist/css/materialize.min.css" />
-    <entry file="file://$PROJECT_DIR$/app/public/lib/Materialize/dist/css/materialize.css" />
-    <entry file="file://$PROJECT_DIR$/app/dev/service/config.json" />
-    <entry file="file://$PROJECT_DIR$/app/dev/client/css/style.scss" />
-    <entry file="file://$PROJECT_DIR$/app/dev/service/template/index.html" />
-    <entry file="file://$PROJECT_DIR$/app/dev/service/js/test.bat" />
-    <entry file="file://$PROJECT_DIR$/app/dev/client/js/init.js" />
-    <entry file="file://$PROJECT_DIR$/app/dev/client/js/setAnimate.js" />
+    <entry file="file://$PROJECT_DIR$/appPath/public/img/bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/client/js/createSingletonDialog.js" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/service/js/1.bat" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/client/config.json" />
+    <entry file="file://$PROJECT_DIR$/appPath/public/lib/Materialize/js/hammer.min.js" />
+    <entry file="file://$PROJECT_DIR$/appPath/public/lib/Materialize/dist/js/materialize.js" />
+    <entry file="file://$PROJECT_DIR$/appPath/public/lib/Materialize/dist/css/materialize.min.css" />
+    <entry file="file://$PROJECT_DIR$/appPath/public/lib/Materialize/dist/css/materialize.css" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/service/config.json" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/client/css/style.scss" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/service/template/index.html" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/service/js/test.bat" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/client/js/init.js" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/client/js/setAnimate.js" />
     <entry file="file://$PROJECT_DIR$/../oldBlog/oldBlog/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -427,17 +842,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dev/client/js/searchJava.js" />
-    <entry file="file://$PROJECT_DIR$/app/public/js/mcstart.js" />
-    <entry file="file://$PROJECT_DIR$/app/dev/service/js/startGame.js" />
-    <entry file="file://$PROJECT_DIR$/app/public/js/mcstart.js">
+    <entry file="file://$PROJECT_DIR$/appPath/dev/client/js/searchJava.js" />
+    <entry file="file://$PROJECT_DIR$/appPath/public/js/mcstart.js" />
+    <entry file="file://$PROJECT_DIR$/appPath/dev/service/js/startGame.js" />
+    <entry file="file://$PROJECT_DIR$/appPath/public/js/mcstart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-216">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dev/start.js">
+    <entry file="file://$PROJECT_DIR$/appPath/dev/start.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
@@ -445,28 +860,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/dev/service/js/app.js" />
-    <entry file="file://$PROJECT_DIR$/app/dev/service/js/save.js">
+    <entry file="file://$PROJECT_DIR$/appPath/dev/service/js/save.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dev/start.js">
+    <entry file="file://$PROJECT_DIR$/appPath/dev/start.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dev/service/config.json">
+    <entry file="file://$PROJECT_DIR$/appPath/dev/service/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="0" column="187" selection-start-line="0" selection-start-column="187" selection-end-line="0" selection-end-column="187" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dev/service/js/getInfo.js">
+    <entry file="file://$PROJECT_DIR$/appPath/dev/service/js/getInfo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
@@ -481,7 +896,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dev/service/js/service.js">
+    <entry file="file://$PROJECT_DIR$/appPath/dev/service/js/service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
           <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
@@ -507,7 +922,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dev/service/js/searchJava.js">
+    <entry file="file://$PROJECT_DIR$/appPath/dev/service/js/searchJava.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
@@ -518,7 +933,7 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="150" selection-start-line="7" selection-start-column="150" selection-end-line="7" selection-end-column="150" />
+          <caret line="7" column="140" selection-start-line="7" selection-start-column="140" selection-end-line="7" selection-end-column="140" />
           <folding />
         </state>
       </provider>

@@ -5,7 +5,7 @@
   "main": "./app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "package": "electron-packager ./ soulMc --platform=win32 --arch=all --out D:/Project/build --version 0.36.7 --overwrite --ignore=app --ignore=logs --ignore=public --ignore=bower.json --ignore=webpack.config.js --ignore=gulpfile.js --ignore=.bowerrc --ignore=.gitignore  --ignore=.idea "
+    "package": "electron-packager ./ soulMc --platform=win32 --arch=all --out D:/Project/build --version 0.36.7 --overwrite --ignore=appPath --ignore=logs --ignore=public --ignore=bower.json --ignore=webpack.config.js --ignore=gulpfile.js --ignore=.bowerrc --ignore=.gitignore  --ignore=.idea "
   },
   "dependencies": {},
   "devDependencies": {
