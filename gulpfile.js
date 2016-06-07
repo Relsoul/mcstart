@@ -9,27 +9,27 @@ gulp.task("default",["sass:watch","webpack:watch",'reload']);
 
 //sass编译
 gulp.task("sass:watch",function(){
-    gulp.watch('./app/dev/client/css/**.scss',["reload"])
+    gulp.watch('./appPath/dev/client/css/**.scss',["reload"])
 });
 gulp.task("sass:compile",function(){
-    gulp.src(['./app/dev/client/css/**.scss'])
+    gulp.src(['./appPath/dev/client/css/**.scss'])
         .pipe(p.sass.sync().on('error', p.sass.logError))
-        .pipe(gulp.dest('./public/css'))
+        .pipe(gulp.dest('./appPath/public/css'))
 });
 
 //webpack依赖编译
 gulp.task('webpack:watch',function(){
     //任何js变动
-    gulp.watch('./app/dev/client/js/**.js',["reload"]);
-    gulp.watch('./app/dev/*.js',["reload"]);
-    gulp.watch("./app/dev/service/js/**.js",["reload"])
+    gulp.watch('./appPath/dev/client/js/**.js',["reload"]);
+    gulp.watch('./appPath/dev/*.js',["reload"]);
+    gulp.watch("./appPath/dev/service/js/**.js",["reload"])
 });
 
 gulp.task('webpack:compile',function(){
      gulp.src("./")
         .pipe(p.webpack(webpackConfig))
         //设置输出路径
-        .pipe(gulp.dest('./app/public/js'))
+        .pipe(gulp.dest('./appPath/public/js'))
 });
 
-gulp.task("reload",["sass:compile",'webpack:compile'], p.shell.task(['electron .']));
+gulp.task("reload",["sass:compile",'webpack:compile'], p.shell.task(["asar pack appPath app.asar",'electron .']));

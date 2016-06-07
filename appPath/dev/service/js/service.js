@@ -38,7 +38,7 @@ module.exports=function () {
 // 这个方法就被调用
     app.on('ready', function() {
         // 创建浏览器窗口。
-        mainWindow = new BrowserWindow({width: 1200, height: 800});
+        mainWindow = new BrowserWindow({width: 1200, height: 800,title:"Minecraft启动器BySoul-内测版"});
 
 
         // 加载应用的 index.html
@@ -46,7 +46,10 @@ module.exports=function () {
 
 
         // 打开开发工具
-        mainWindow.openDevTools();
+        //mainWindow.openDevTools();
+
+        //关闭菜单栏
+        mainWindow.setMenu(null);
 
 
         // 当 window 被关闭，这个事件会被发出

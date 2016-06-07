@@ -97,6 +97,8 @@ module.exports=function(event,arg){
         console.log("89",data);
         if(data){
             event.sender.send("searchJave:result",data)
+        }else{
+            event.sender.send("searchJave:result",false)
         }
 
     });

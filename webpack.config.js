@@ -5,7 +5,7 @@ var path=require("path");
 var webpack=require("webpack");
 module.exports={
     //开发js都放置在/dev/js下 同时/dev/js下有个主目录用来做主文件
-    entry:'./app/dev/start.js',
+    entry:'./apppath/dev/start.js',
     externals: {
         "jquery" : "jQuery",
         'ipc':'ipc',
