@@ -4,8 +4,6 @@
 module.exports=function(arg,cb){
     var fs=require("fs");
     var path=require("path");
-    console.log(7,JSON.stringify(arg));
+    console.log("传递参数",JSON.stringify(arg));
     fs.writeFileSync(path.join(__dirname,"../config.json"),JSON.stringify(arg))
-
-
 };

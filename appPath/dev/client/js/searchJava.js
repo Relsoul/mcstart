@@ -10,7 +10,7 @@ module.exports=function($,ipc,remote){
             if(d){
                 if(typeof callback=='function' ){callback(d)}
             }else{
-                dialog.showOpenDialog({ title:"选择java路径",properties: [ 'openFile'],filters:[{name:"java",extensions:['exe']}]},function(file){
+                dialog.showOpenDialog({ title:"选择java路径",properties: [ 'openFile'],filters:[{name:"javaw",extensions:['exe']}]},function(file){
                     if(!file.toString().match(/javaw.exe/)){
                         return dialog.showErrorBox("错误","请选择javaw.exe文件")
                     }

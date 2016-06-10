@@ -127,6 +127,7 @@
 	        ipc.send("Info:get");
 	        ipc.on("Info:result",function(event,data){
 	            info=data;
+	            info["username"]=""||info["username"];
 	            initConfid();
 	            console.log("INFO",info)
 	        })
@@ -173,6 +174,17 @@
 	                $(elem["java_path"]).val(info['java_path'])
 	            })
 	        });
+
+	        var dialog=remote.require("dialog");
+	        $("#choose_java").on("click",function (e) {
+	            dialog.showOpenDialog({ title:"选择java路径",properties: [ 'openFile'],filters:[{name:"javaw",extensions:['exe']}]},function(file){
+	                if(!file.toString().match(/javaw.exe/)){
+	                    return dialog.showErrorBox("错误","请选择javaw.exe文件")
+	                }
+	                info['java_path']= $.trim(file);
+	                $(elem["java_path"]).val(info['java_path'])
+	            })
+	        });
 	        $(elem['search_java']).click();
 
 	        //设置最佳内存
@@ -188,11 +200,12 @@
 	                }
 	                info["memory_size"]= $(elem["memory_size"]).val();
 	                info["add_arg"]=$(elem["add_arg"]).val()||" ";
+	                info["username"]=$(elem["username"]).val();
 	                is_start=true;
 	                setTimeout(function(){
 	                    ipc.send("close-main-window");
-	                },30000);
-	                var end_time=30;
+	                },60000);
+	                var end_time=60;
 	                var timer=setInterval(function(){
 	                    if(end_time<=0){
 	                        clearInterval(timer)
@@ -202,6 +215,7 @@
 	                    }
 	                },1000);
 	                $('#modal1').openModal();
+	                //开始游戏的时候才传递info
 	                ipc.send("startGame",info);
 	            }
 	        });
@@ -255,7 +269,7 @@
 	            if(d){
 	                if(typeof callback=='function' ){callback(d)}
 	            }else{
-	                dialog.showOpenDialog({ title:"选择java路径",properties: [ 'openFile'],filters:[{name:"java",extensions:['exe']}]},function(file){
+	                dialog.showOpenDialog({ title:"选择java路径",properties: [ 'openFile'],filters:[{name:"javaw",extensions:['exe']}]},function(file){
 	                    if(!file.toString().match(/javaw.exe/)){
 	                        return dialog.showErrorBox("错误","请选择javaw.exe文件")
 	                    }

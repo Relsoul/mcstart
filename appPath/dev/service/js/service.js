@@ -51,7 +51,6 @@ module.exports=function () {
         //关闭菜单栏
         mainWindow.setMenu(null);
 
-
         // 当 window 被关闭，这个事件会被发出
         mainWindow.on('closed', function() {
             // 取消引用 window 对象，如果你的应用支持多窗口的话，
@@ -74,3 +73,10 @@ module.exports=function () {
         require("./startGame.js")(event,arg,app_path)
     });
 };
+
+//全局错误捕捉处理
+process.on('uncaughtException', (err)=>{
+    const dialog = require('electron').dialog;
+    dialog.showErrorBox("运行错误", err.stack)
+
+});

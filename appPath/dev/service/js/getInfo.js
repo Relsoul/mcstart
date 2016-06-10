@@ -48,7 +48,7 @@ module.exports=function(event,arg,app_path){
 
     getMcInfo.init(user_config);
 
-    console.log(8,__dirname)
+    console.log("appapth",app_path)
 
 
 };

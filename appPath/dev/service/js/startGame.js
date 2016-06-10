@@ -4,6 +4,7 @@
 module.exports=function(event,arg,app_path){
     var fs=require("fs");
     var path=require("path");
+    //保存传递参数
     require("./save.js")(arg);
     var child_process=require("child_process");
 
@@ -104,9 +105,16 @@ module.exports=function(event,arg,app_path){
             })*/
 
 
-            child_process.exec(start_text,{cwd:"D:\\Project\\soul\\mcstart\\.minecraft"},function(error, stdout, stderr){
+/*            console.log("启动dirname",__dirname);
+            console.log("正确路径,truePath",);*/
+            console.log("启动命令",start_text);
+            child_process.exec(start_text,{cwd:path.join(__dirname,"../../../../.minecraft")},function(error, stdout, stderr){
                 console.log("stdout",stdout);
                 console.log("stderr",stderr);
+                if(stdout){
+                    const dialog = require('electron').dialog;
+                    dialog.showErrorBox("运行错误", stdout)
+                }
                 console.log("err",error)
             });
 
