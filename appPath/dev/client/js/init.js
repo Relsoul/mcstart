@@ -20,7 +20,20 @@ module.exports=function($,ipc,remote){
             info["username"]=""||info["username"];
             initConfid();
             console.log("INFO",info)
-        })
+        });
+        
+
+        $.ajax(
+            {
+                url: "http://www.ppsspp.cn/minecraft-rule/",
+                type: "GET",
+                dataType: "jsonp",
+                success: function (html) {
+                    console.log(html);
+                    $('.mc-ajax').html(html[0])
+                }
+            }
+        )
     };
 
 
@@ -50,7 +63,6 @@ module.exports=function($,ipc,remote){
             }
         }
     }();
-
 
 
     var initConfid=function(){

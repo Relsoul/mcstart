@@ -38,13 +38,12 @@ module.exports=function () {
 // 这个方法就被调用
     app.on('ready', function() {
         // 创建浏览器窗口。
-        mainWindow = new BrowserWindow({width: 1200, height: 800,title:"Minecraft启动器BySoul-内测版"});
+        mainWindow = new BrowserWindow({width: 1200, height: 800,title:"Minecraft启动器BySoul-Ver0.2版"});
 
 
         // 加载应用的 index.html
         mainWindow.loadURL(`file://${path.join(__dirname,"../template/index.html")}`);
-
-
+        
         // 打开开发工具
         //mainWindow.openDevTools();
 
